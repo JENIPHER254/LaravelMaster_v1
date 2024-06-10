@@ -9,7 +9,11 @@
     </div>
   
     </div>
-    <div class="col-9"></div>
+    <div class="col-9 ">
+      <h1 class="fw-bold ">{{ Auth::user()->username}}</h1>
+      <p class="fw-bold ">{{ Auth::user()->name}}</p>
+      <p class="fw-bold ">{{ Auth::user()->email}}</p>
+   </div>
    </div>
 </div>
 @endsection
