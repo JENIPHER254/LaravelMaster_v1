@@ -20,9 +20,12 @@
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">
-                <a class="navbar-brand" href="{{ url('/') }}">
-                    {{ config('app.name', 'Laravel') }}
-                </a>
+                 <a class="navbar-brand d-flex align-items-center" href="{{ url('/') }}">
+                    <div><img src="icons/logo4.png" width="70" alt=""></div>
+                    <div><img src="images/grey-line.jpg" width="40"  alt=""></div>
+                     <div class="text-center ml-2 fw-bold">Bytescape Tech</div>
+                 </a>
+
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
                 </button>
