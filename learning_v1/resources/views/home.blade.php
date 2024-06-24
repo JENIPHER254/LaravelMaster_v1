@@ -8,7 +8,7 @@
         <img src="images/person2.jpg" width="150" class="rounded-circle"alt="">
     </div>
     <div class="col-9 pt-5">
-        <div><h3 class="fw-bold">cooking with Cookie!!</h3></div>
+        <div><h3 class="fw-bold">   {{ Auth::user()->username }}</h3></div>
         <div class="d-flex">
             <div class="pe-4"><strong>153 </strong>posts</div>
             <div class="pe-4"><strong>23k </strong>followers</div>
